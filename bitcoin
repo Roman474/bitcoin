@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+            Scanner scanner = new Scanner (System.in);
+
+            System.out.println("course bitcoin");
+            double bitcoin = scanner.nextInt();
+
+            System.out.println("have dollar");
+            double dollar = scanner.nextInt();
+
+            double res = dollar/bitcoin;
+            String result = String.format("%.6f",res);
+            System.out.println(res);
+      }
+}
